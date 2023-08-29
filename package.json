@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/damiansire/template-base-electron-vite-react-typescript/issues"
   },
-  "homepage": "https://github.com/damiansire/template-base-electron-vite-react-typescript#readme"
+  "homepage": "https://github.com/damiansire/template-base-electron-vite-react-typescript#readme",
+  "dependencies": {
+    "electron": "^26.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "cross-env": "^7.0.3",
+    "electron-builder": "^24.6.3",
+    "electron-is-dev": "^2.0.0",
+    "wait-on": "^7.0.1"
+  }
 }
